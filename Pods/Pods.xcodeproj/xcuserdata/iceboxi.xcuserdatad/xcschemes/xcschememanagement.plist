@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>APNGKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Concorde.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ProgressiveJPEG.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ProgressiveJPEGTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1E56E71079FC67C44D358B8CE98B9480</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C85F3B2C91E31DB6CD1AA7B4147D0B01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F36D218A1A2FDE64CBDC28EB8F5C6473</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA52F8F69F6CB643B8196C552383B9E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
