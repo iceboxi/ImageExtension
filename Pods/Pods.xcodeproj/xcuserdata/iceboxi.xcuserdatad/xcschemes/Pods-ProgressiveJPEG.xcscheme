@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E56E71079FC67C44D358B8CE98B9480"
+               BlueprintIdentifier = "43A204509B40DCEBDDF8CA5627702345"
                BuildableName = "Pods_ProgressiveJPEG.framework"
                BlueprintName = "Pods-ProgressiveJPEG"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E56E71079FC67C44D358B8CE98B9480"
+            BlueprintIdentifier = "43A204509B40DCEBDDF8CA5627702345"
             BuildableName = "Pods_ProgressiveJPEG.framework"
             BlueprintName = "Pods-ProgressiveJPEG"
             ReferencedContainer = "container:Pods.xcodeproj">

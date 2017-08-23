@@ -7,72 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0281EC7522BA65F81328AB21A51EF796 /* pnginfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 41109804DED17739233C86CF16D9BF81 /* pnginfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		06CF5D730D88AAB752E49606A3EDA586 /* arm_init.c in Sources */ = {isa = PBXBuildFile; fileRef = A1C9A1F10C78A0FC8CEADC5031573E7B /* arm_init.c */; };
-		0732E7EAAE25395800CBC160ABB69F6D /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = 66813B1A08DD4A5824859931E5394A76 /* jmorecfg.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		075EACF2C8EFFE1E7F322170B688A6F7 /* APNGImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC780AEF484E4355260BB50471B4F0 /* APNGImageCache.swift */; };
-		0C52B9849B4820FD7ECDC89A1B6BEC1E /* APNGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CD6492B8DD54CACC3D6897AEEC69 /* APNGImageView.swift */; };
-		0CB5E7C1F0A2705F70560F3047AE20B7 /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D7F2BABF3B805699544F7008400C47A /* pnglibconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		128D50EE16FA65876EFC7B8D6074E9C5 /* APNGKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 235ECD4DD1E25CD2468D0E019BC6A888 /* APNGKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		181A1455D0723DAE29F6F714CF11E6EB /* pngread.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AA35AFDA2A3E2F5A0B3E8B65FD4C54A /* pngread.c */; };
-		1E55A023E941A9276493A7B2FDCA7D03 /* APNGKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B8B6604AB9BBD2438F06AD5D6CF5DE /* APNGKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EDD508B146415BB1A59977B271D0179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		2210E9B9592D0C601845E1F587A33791 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = 480A8D563EA5A2E5FAB8D68084715655 /* png.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		233234972836F6B754DD0B585C0837EE /* CCBufferedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692479DEE85CA33617D356E8DD56B503 /* CCBufferedImageView.swift */; };
-		247959B93E637531E326050E755CCFF9 /* Pods-ProgressiveJPEG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD427DF1C57099371DA691C80BA2778 /* Pods-ProgressiveJPEG-dummy.m */; };
-		35A75192E8EDB7E97E5DE55E02327E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		39F72825C41DE742039641B78F4078BE /* GCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DE7F432EF5C981FCD488ED4D835D9E /* GCDTimer.swift */; };
-		3BD0121EF060E38536552D1CE78E382C /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64D272A6BB300995A88B999B1DAB904 /* Reader.swift */; };
-		3E297D06835AEE633CE4479B9220BD57 /* turbojpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5008C73EA1725D25D072405D2122D0 /* turbojpeg.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46A23861EF73EC154B4A73C057A45F06 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = F645F48555BFF3BD58E9AD05FC1AC0C1 /* pngset.c */; };
-		49A8DC68A0B231B9F3E85DCDCD06E3DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		4BF7B459A469C5A8C05D847C3F220120 /* filter_neon_intrinsics.c in Sources */ = {isa = PBXBuildFile; fileRef = 3070404F6AB585632FC0DF6333957579 /* filter_neon_intrinsics.c */; };
-		4DAF284FD94EFAD852BB5E2C8361B7C2 /* pngmem.c in Sources */ = {isa = PBXBuildFile; fileRef = C83D8BFA0A3B227D6C78D0F5497947F9 /* pngmem.c */; };
-		58C25F83B8CD9419E8A835303345C4F3 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = AD1BE5B1C9031C34DCAD23CF60185E7D /* pngwutil.c */; };
-		60608ACE2BB9E872A052BBA541C18C66 /* filter_neon.S in Sources */ = {isa = PBXBuildFile; fileRef = 237F596CD268E62E0A088401C92F492F /* filter_neon.S */; };
+		026D1AE2DBF522B5BFB08072FAFDAE53 /* Pods-ProgressiveJPEG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAFC84ED121F0C3E53A2C48AF2417CDB /* Pods-ProgressiveJPEG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0281EC7522BA65F81328AB21A51EF796 /* pnginfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9027B8BB2B4F5CC298C38270AA42ABCC /* pnginfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		06CF5D730D88AAB752E49606A3EDA586 /* arm_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 92A8F634BC1B64DD0696C57D1083E3B6 /* arm_init.c */; };
+		075EACF2C8EFFE1E7F322170B688A6F7 /* APNGImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9DE4BF0CF766CFBE4692E9C44B89BE /* APNGImageCache.swift */; };
+		0C52B9849B4820FD7ECDC89A1B6BEC1E /* APNGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C519FAAEAF7535067CA543F53AFEA7 /* APNGImageView.swift */; };
+		0CB5E7C1F0A2705F70560F3047AE20B7 /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A6071166979A7E409E12F8BB072D53 /* pnglibconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		128D50EE16FA65876EFC7B8D6074E9C5 /* APNGKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C8C363183975C09728EEED46F6081F3 /* APNGKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		181A1455D0723DAE29F6F714CF11E6EB /* pngread.c in Sources */ = {isa = PBXBuildFile; fileRef = DF6CC3406B73F11FB4971FB4E6B37BE8 /* pngread.c */; };
+		1E55A023E941A9276493A7B2FDCA7D03 /* APNGKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DCF80033BECB168FDB19D1E2B81813 /* APNGKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2210E9B9592D0C601845E1F587A33791 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC538644C86BAB0A764719BA23DD688 /* png.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39F72825C41DE742039641B78F4078BE /* GCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6643BCE237036A9533F9A2DF7898C3A /* GCDTimer.swift */; };
+		3BD0121EF060E38536552D1CE78E382C /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C800F1A6CE75C89696F83B47581E05 /* Reader.swift */; };
+		46A23861EF73EC154B4A73C057A45F06 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = 74E2DEE2C8F3CE00D832B419A4AE8F70 /* pngset.c */; };
+		4BF7B459A469C5A8C05D847C3F220120 /* filter_neon_intrinsics.c in Sources */ = {isa = PBXBuildFile; fileRef = 97315337AB6EFD684870E897C4020F7F /* filter_neon_intrinsics.c */; };
+		4DAF284FD94EFAD852BB5E2C8361B7C2 /* pngmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C31FA33358140B5F40E6A9563D9D6C6 /* pngmem.c */; };
+		58C25F83B8CD9419E8A835303345C4F3 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = ADE927082C747E45BB5AEA686D9AC02C /* pngwutil.c */; };
+		60608ACE2BB9E872A052BBA541C18C66 /* filter_neon.S in Sources */ = {isa = PBXBuildFile; fileRef = 494D78CDD4E2E2A470A26909C1BDC39D /* filter_neon.S */; };
 		61981A4818A417A003847F58C92E7966 /* Pods-ProgressiveJPEGTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12076CCCD57C33DA35F14F0B497409BF /* Pods-ProgressiveJPEGTests-dummy.m */; };
-		7562990C37064F80BAC30E9228FED732 /* APNGKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 486351FDE63B319ED820688EA384DEE0 /* APNGKit-dummy.m */; };
+		7562990C37064F80BAC30E9228FED732 /* APNGKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD3764F83B44E72E535C6FDD7194779 /* APNGKit-dummy.m */; };
 		77F35F8968EF225B335D4C6A42DF8A2C /* Pods-ProgressiveJPEGTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 900F3B623B1AA855F525B48123F5429C /* Pods-ProgressiveJPEGTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		803BCEB77DD58F8093D25DB68D713F5B /* Concorde-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26607ED5211F1770A06B02888AA939C8 /* Concorde-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		808013827AD9FA5F13F9DAF7D6F09F15 /* pngget.c in Sources */ = {isa = PBXBuildFile; fileRef = 68832EFA2714A8EB7414088099EFE067 /* pngget.c */; };
-		822358C070083548C2A1BC4AB453DF32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		861A8BEF7ADE59358F7AEECEB03069EF /* pngdebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 625918829EA951B00945AC7ADE893DD6 /* pngdebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8AB12F7890A5BEB342F5EDF9A7B5C734 /* pngpread.c in Sources */ = {isa = PBXBuildFile; fileRef = 5DD94C7FBA5DAA96D8864B96FA309A4E /* pngpread.c */; };
-		9300222E373B4D1B626AB33965DA9F5F /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 786128833E071820FD703AD0EF498658 /* pngconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95DA114D8A3B039A75D69E6102B3D70D /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 881436EDBBAB61E1A6E7FD7FC0AC5E67 /* pngrtran.c */; };
-		972934B8BAA024D5C048A28C8C0A589E /* pngpriv.h in Headers */ = {isa = PBXBuildFile; fileRef = D735B9C65E37292A00D0790BB0400BA4 /* pngpriv.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		979E4AC176DDBDEDB02AD12A6147F8FD /* Pods-ProgressiveJPEG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAFC84ED121F0C3E53A2C48AF2417CDB /* Pods-ProgressiveJPEG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98FD1AAD7962404D7D2C73AE3DE2B3BE /* APNGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0837CC1D736F4CFD7CD6F50C0EE7609 /* APNGImage.swift */; };
-		9A998CD4B3021D0F050149526A4074F3 /* pngrio.c in Sources */ = {isa = PBXBuildFile; fileRef = A82CED95AB8B7F3D451755E037E8D204 /* pngrio.c */; };
-		A2F81E6E4EEAC4435024FE340125FE13 /* pngstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = CE434B3B552A5D2E45ACF608F79000F2 /* pngstruct.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA9281E615B1364CEB2121FDAD0C2BB2 /* jerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CD9EC288CB03F246825AC3F6D0C1B2 /* jerror.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ABC3612FD23BDABE657CD47CDE018832 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = F9E3EF1D1EC96632F334FB5BB26A09AF /* pngwrite.c */; };
-		AED1CC52BA30AB6A202D926A8A9E9CD5 /* Concorde.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D8D87D08F4D40D09AAC8271745599F /* Concorde.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AF8CC608A2215B0DE56E9FB0B0923785 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = F151FC4832F13DF065002599EF51EF30 /* png.c */; };
-		B3A7CC370C133CA9D7AFEFFE14554226 /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = EE39BC13A55A855B8221181351A191B7 /* pngwtran.c */; };
-		BA69E2B21D93D4425CD753991C6230F8 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BA8F3B6C3C9E7701D500FD2C3DE1EB /* Frame.swift */; };
-		BE299D48B6C0E4D91ED6B61F5120AEDF /* Concorde-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8878BB79BA123E01BCFE2EC22C0366 /* Concorde-dummy.m */; };
-		C50F5C9C0F36BEA96A47671D78736569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		C72DE893C74D99CC2D0CAE9D30AB1C9C /* CCBufferedImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F60A6B752C0F761684A9D514D66396A2 /* CCBufferedImageDecoder.m */; };
-		CC19342E87748EE5D2019CF952327293 /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 65CEE3A3DF597772640ED3CECD86C688 /* pngrutil.c */; };
-		CFB17462BD390C5B89D09E7A87CEF920 /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DC06BFA8D740609A112895E10F5EAE5 /* pngerror.c */; };
-		D18FF636C3F307E7C45B2504DA9D1750 /* Disassembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CB3FCD1C6B683158118323F8FD15F /* Disassembler.swift */; };
-		D3043CFA9C18C1423938C5FD43EDAF9C /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC08F95F88B79A4F9CB33140A19A11C /* jconfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E71074E6DAC3B79101CDA4FB412D39A6 /* pngwio.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B546772A30D55166FE6DE552F570616 /* pngwio.c */; };
-		EB7000523D149BA8E5BF6F070F948CA9 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD3A08595F46F417E55F96004DEA27C /* jpeglib.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EF6A092EABE28C98BBEB64D9958549CC /* CCBufferedImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6F1A2417D5CF0502FD82A8EDC62BEB /* CCBufferedImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4BCF985D4AD1248153D69981B4E592B /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = CBAAFFA3654C65D211429D0F7ACB59E3 /* pngtrans.c */; };
+		7803A577193902C1FF7C76649D60366C /* Pods-ProgressiveJPEG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD427DF1C57099371DA691C80BA2778 /* Pods-ProgressiveJPEG-dummy.m */; };
+		808013827AD9FA5F13F9DAF7D6F09F15 /* pngget.c in Sources */ = {isa = PBXBuildFile; fileRef = 425422187DCB264C371669D789415805 /* pngget.c */; };
+		822358C070083548C2A1BC4AB453DF32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		861A8BEF7ADE59358F7AEECEB03069EF /* pngdebug.h in Headers */ = {isa = PBXBuildFile; fileRef = F22D3818E683307C4B18FFB1EFB973E2 /* pngdebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8AB12F7890A5BEB342F5EDF9A7B5C734 /* pngpread.c in Sources */ = {isa = PBXBuildFile; fileRef = 707410490610A8A073C9118C2E2FD0F1 /* pngpread.c */; };
+		9300222E373B4D1B626AB33965DA9F5F /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = E761494C2CAD0FF55B139ECC810A68F0 /* pngconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95DA114D8A3B039A75D69E6102B3D70D /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AB963416B7CB44270542C704C057740 /* pngrtran.c */; };
+		972934B8BAA024D5C048A28C8C0A589E /* pngpriv.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F8323A12A82F87B57579A698DFF7F1 /* pngpriv.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98FD1AAD7962404D7D2C73AE3DE2B3BE /* APNGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A380F15B6AD9B923DEC42537619488D9 /* APNGImage.swift */; };
+		9A998CD4B3021D0F050149526A4074F3 /* pngrio.c in Sources */ = {isa = PBXBuildFile; fileRef = C16E69CD486683F4379B10D97076BE44 /* pngrio.c */; };
+		A2F81E6E4EEAC4435024FE340125FE13 /* pngstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A5AAA88E8B2F8E9CEDF92B93E69950 /* pngstruct.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ABC3612FD23BDABE657CD47CDE018832 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 602A952EDA1EFD71D0A7010A05B1AF48 /* pngwrite.c */; };
+		AF8CC608A2215B0DE56E9FB0B0923785 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = 04FD68EDBA9B229E87BDD18B93EB92C3 /* png.c */; };
+		B3A7CC370C133CA9D7AFEFFE14554226 /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AED492703EE156D3E750456C691F75C /* pngwtran.c */; };
+		B66F13FDADB6E891B61FED5C4ED50DB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BA69E2B21D93D4425CD753991C6230F8 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE7F2D29804AE6972C9F2062767F211 /* Frame.swift */; };
+		C50F5C9C0F36BEA96A47671D78736569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CC19342E87748EE5D2019CF952327293 /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 70235742EB379439BC476D8D49165279 /* pngrutil.c */; };
+		CFB17462BD390C5B89D09E7A87CEF920 /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 9880EEAF9376FE54822C306F6A6238E3 /* pngerror.c */; };
+		D18FF636C3F307E7C45B2504DA9D1750 /* Disassembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F5EA31DC3E9870FF9B1723CBB6BED /* Disassembler.swift */; };
+		E71074E6DAC3B79101CDA4FB412D39A6 /* pngwio.c in Sources */ = {isa = PBXBuildFile; fileRef = 22677718CBF595D174F3189217BA2E9B /* pngwio.c */; };
+		F4BCF985D4AD1248153D69981B4E592B /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D245B6E4CBB92E7E8C9DC971A2551E1 /* pngtrans.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ABD6310129DB727F686905DB975F3D29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F36D218A1A2FDE64CBDC28EB8F5C6473;
-			remoteInfo = Concorde;
-		};
-		BB13E867952D4A0EC03561AEF310ADAE /* PBXContainerItemProxy */ = {
+		25329634B7AB036852325442929C0F7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -82,97 +62,78 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A5AAA88E8B2F8E9CEDF92B93E69950 /* pngstruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngstruct.h; path = "APNGKit/libpng-apng/pngstruct.h"; sourceTree = "<group>"; };
 		04628B036B22A839763139A19B3B8F06 /* Pods-ProgressiveJPEG-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProgressiveJPEG-acknowledgements.plist"; sourceTree = "<group>"; };
-		0D7F2BABF3B805699544F7008400C47A /* pnglibconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pnglibconf.h; path = "APNGKit/libpng-apng/pnglibconf.h"; sourceTree = "<group>"; };
+		04FD68EDBA9B229E87BDD18B93EB92C3 /* png.c */ = {isa = PBXFileReference; includeInIndex = 1; name = png.c; path = "APNGKit/libpng-apng/png.c"; sourceTree = "<group>"; };
+		09F8323A12A82F87B57579A698DFF7F1 /* pngpriv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngpriv.h; path = "APNGKit/libpng-apng/pngpriv.h"; sourceTree = "<group>"; };
+		0AD3764F83B44E72E535C6FDD7194779 /* APNGKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APNGKit-dummy.m"; sourceTree = "<group>"; };
 		12076CCCD57C33DA35F14F0B497409BF /* Pods-ProgressiveJPEGTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProgressiveJPEGTests-dummy.m"; sourceTree = "<group>"; };
-		12BC780AEF484E4355260BB50471B4F0 /* APNGImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APNGImageCache.swift; path = APNGKit/APNGImageCache.swift; sourceTree = "<group>"; };
-		157CB3FCD1C6B683158118323F8FD15F /* Disassembler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disassembler.swift; path = APNGKit/Disassembler.swift; sourceTree = "<group>"; };
 		169A8B0E88BFA6F92696E3AA9D53D788 /* Pods-ProgressiveJPEGTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProgressiveJPEGTests-resources.sh"; sourceTree = "<group>"; };
+		17F15F04229FF40389C18F89D6B0663E /* Pods_ProgressiveJPEG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProgressiveJPEG.framework; path = "Pods-ProgressiveJPEG.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		187D1A333D86E11202A8A15B3DD880FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AA35AFDA2A3E2F5A0B3E8B65FD4C54A /* pngread.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngread.c; path = "APNGKit/libpng-apng/pngread.c"; sourceTree = "<group>"; };
-		1CB932E623C7271E6C09DA947A487EBE /* APNGKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APNGKit-prefix.pch"; sourceTree = "<group>"; };
-		1DC06BFA8D740609A112895E10F5EAE5 /* pngerror.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngerror.c; path = "APNGKit/libpng-apng/pngerror.c"; sourceTree = "<group>"; };
-		1E8878BB79BA123E01BCFE2EC22C0366 /* Concorde-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Concorde-dummy.m"; sourceTree = "<group>"; };
+		1C8C363183975C09728EEED46F6081F3 /* APNGKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNGKit.h; path = APNGKit/APNGKit.h; sourceTree = "<group>"; };
 		218B1B3F5CE7443F4ED2D9D9CC76AEC6 /* Pods-ProgressiveJPEGTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressiveJPEGTests.release.xcconfig"; sourceTree = "<group>"; };
-		235C8888816B784904A4F77253C2397F /* Concorde-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Concorde-prefix.pch"; sourceTree = "<group>"; };
-		235ECD4DD1E25CD2468D0E019BC6A888 /* APNGKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNGKit.h; path = APNGKit/APNGKit.h; sourceTree = "<group>"; };
-		237F596CD268E62E0A088401C92F492F /* filter_neon.S */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.asm; name = filter_neon.S; path = "APNGKit/libpng-apng/filter_neon.S"; sourceTree = "<group>"; };
-		26607ED5211F1770A06B02888AA939C8 /* Concorde-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Concorde-umbrella.h"; sourceTree = "<group>"; };
-		29C47708F56E154D7B28BAC0D12B0ADE /* Concorde.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Concorde.xcconfig; sourceTree = "<group>"; };
-		3070404F6AB585632FC0DF6333957579 /* filter_neon_intrinsics.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = filter_neon_intrinsics.c; path = "APNGKit/libpng-apng/filter_neon_intrinsics.c"; sourceTree = "<group>"; };
-		3A6B7B04E07E08C5C8932B8EBE18AA04 /* APNGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APNGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22677718CBF595D174F3189217BA2E9B /* pngwio.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngwio.c; path = "APNGKit/libpng-apng/pngwio.c"; sourceTree = "<group>"; };
+		2AED492703EE156D3E750456C691F75C /* pngwtran.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngwtran.c; path = "APNGKit/libpng-apng/pngwtran.c"; sourceTree = "<group>"; };
+		3433FD09E0C07E894D19247B570170BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B4C429D48112199468937BAEBCBD649 /* Pods-ProgressiveJPEGTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProgressiveJPEGTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3FE0E22D17E881EA13C4366A3B9D7C90 /* Pods-ProgressiveJPEGTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressiveJPEGTests.debug.xcconfig"; sourceTree = "<group>"; };
-		41109804DED17739233C86CF16D9BF81 /* pnginfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pnginfo.h; path = "APNGKit/libpng-apng/pnginfo.h"; sourceTree = "<group>"; };
-		43CCC35C5DB2F53E8151D8EC9A3750EF /* libturbojpeg.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libturbojpeg.a; path = "vendor/libjpeg-turbo/lib/libturbojpeg.a"; sourceTree = "<group>"; };
-		480A8D563EA5A2E5FAB8D68084715655 /* png.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = png.h; path = "APNGKit/libpng-apng/png.h"; sourceTree = "<group>"; };
-		486351FDE63B319ED820688EA384DEE0 /* APNGKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APNGKit-dummy.m"; sourceTree = "<group>"; };
-		52CD9EC288CB03F246825AC3F6D0C1B2 /* jerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jerror.h; path = "vendor/libjpeg-turbo/include/jerror.h"; sourceTree = "<group>"; };
-		5B546772A30D55166FE6DE552F570616 /* pngwio.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngwio.c; path = "APNGKit/libpng-apng/pngwio.c"; sourceTree = "<group>"; };
-		5BC08F95F88B79A4F9CB33140A19A11C /* jconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = "vendor/libjpeg-turbo/include/jconfig.h"; sourceTree = "<group>"; };
-		5D5008C73EA1725D25D072405D2122D0 /* turbojpeg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = turbojpeg.h; path = "vendor/libjpeg-turbo/include/turbojpeg.h"; sourceTree = "<group>"; };
-		5DD94C7FBA5DAA96D8864B96FA309A4E /* pngpread.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngpread.c; path = "APNGKit/libpng-apng/pngpread.c"; sourceTree = "<group>"; };
-		625918829EA951B00945AC7ADE893DD6 /* pngdebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngdebug.h; path = "APNGKit/libpng-apng/pngdebug.h"; sourceTree = "<group>"; };
-		65CEE3A3DF597772640ED3CECD86C688 /* pngrutil.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngrutil.c; path = "APNGKit/libpng-apng/pngrutil.c"; sourceTree = "<group>"; };
-		66813B1A08DD4A5824859931E5394A76 /* jmorecfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = "vendor/libjpeg-turbo/include/jmorecfg.h"; sourceTree = "<group>"; };
-		68832EFA2714A8EB7414088099EFE067 /* pngget.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngget.c; path = "APNGKit/libpng-apng/pngget.c"; sourceTree = "<group>"; };
-		68EB4C8670AB07F26FD3BC18B55658E4 /* Concorde.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Concorde.modulemap; sourceTree = "<group>"; };
-		692479DEE85CA33617D356E8DD56B503 /* CCBufferedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCBufferedImageView.swift; path = Code/CCBufferedImageView.swift; sourceTree = "<group>"; };
-		6D71CD6492B8DD54CACC3D6897AEEC69 /* APNGImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APNGImageView.swift; path = APNGKit/APNGImageView.swift; sourceTree = "<group>"; };
-		786128833E071820FD703AD0EF498658 /* pngconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngconf.h; path = "APNGKit/libpng-apng/pngconf.h"; sourceTree = "<group>"; };
-		7CBCAE5AB0DF41A8D2DD32FC97FC0C09 /* Pods-ProgressiveJPEG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ProgressiveJPEG.modulemap"; sourceTree = "<group>"; };
-		7D155A0A1575903BB9291738C51BC402 /* Pods_ProgressiveJPEGTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressiveJPEGTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		881436EDBBAB61E1A6E7FD7FC0AC5E67 /* pngrtran.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngrtran.c; path = "APNGKit/libpng-apng/pngrtran.c"; sourceTree = "<group>"; };
-		8FD3A08595F46F417E55F96004DEA27C /* jpeglib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = "vendor/libjpeg-turbo/include/jpeglib.h"; sourceTree = "<group>"; };
+		425422187DCB264C371669D789415805 /* pngget.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngget.c; path = "APNGKit/libpng-apng/pngget.c"; sourceTree = "<group>"; };
+		494D78CDD4E2E2A470A26909C1BDC39D /* filter_neon.S */ = {isa = PBXFileReference; includeInIndex = 1; name = filter_neon.S; path = "APNGKit/libpng-apng/filter_neon.S"; sourceTree = "<group>"; };
+		4D245B6E4CBB92E7E8C9DC971A2551E1 /* pngtrans.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngtrans.c; path = "APNGKit/libpng-apng/pngtrans.c"; sourceTree = "<group>"; };
+		602A952EDA1EFD71D0A7010A05B1AF48 /* pngwrite.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngwrite.c; path = "APNGKit/libpng-apng/pngwrite.c"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70235742EB379439BC476D8D49165279 /* pngrutil.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngrutil.c; path = "APNGKit/libpng-apng/pngrutil.c"; sourceTree = "<group>"; };
+		707410490610A8A073C9118C2E2FD0F1 /* pngpread.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngpread.c; path = "APNGKit/libpng-apng/pngpread.c"; sourceTree = "<group>"; };
+		74E2DEE2C8F3CE00D832B419A4AE8F70 /* pngset.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngset.c; path = "APNGKit/libpng-apng/pngset.c"; sourceTree = "<group>"; };
+		7AB963416B7CB44270542C704C057740 /* pngrtran.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngrtran.c; path = "APNGKit/libpng-apng/pngrtran.c"; sourceTree = "<group>"; };
+		7C9DE4BF0CF766CFBE4692E9C44B89BE /* APNGImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APNGImageCache.swift; path = APNGKit/APNGImageCache.swift; sourceTree = "<group>"; };
+		7CBCAE5AB0DF41A8D2DD32FC97FC0C09 /* Pods-ProgressiveJPEG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ProgressiveJPEG.modulemap"; sourceTree = "<group>"; };
 		900F3B623B1AA855F525B48123F5429C /* Pods-ProgressiveJPEGTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProgressiveJPEGTests-umbrella.h"; sourceTree = "<group>"; };
-		90BA8F3B6C3C9E7701D500FD2C3DE1EB /* Frame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Frame.swift; path = APNGKit/Frame.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9027B8BB2B4F5CC298C38270AA42ABCC /* pnginfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pnginfo.h; path = "APNGKit/libpng-apng/pnginfo.h"; sourceTree = "<group>"; };
+		92A8F634BC1B64DD0696C57D1083E3B6 /* arm_init.c */ = {isa = PBXFileReference; includeInIndex = 1; name = arm_init.c; path = "APNGKit/libpng-apng/arm_init.c"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		947C4E18A60787CC7099A72864267206 /* Pods-ProgressiveJPEGTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProgressiveJPEGTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		96D8D87D08F4D40D09AAC8271745599F /* Concorde.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Concorde.h; path = Code/Concorde.h; sourceTree = "<group>"; };
-		99C3B2A288DB06AB1B37CD2C25424AF0 /* APNGKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = APNGKit.modulemap; sourceTree = "<group>"; };
-		9E99DBB016B2433BE875BCEDEA07FF43 /* APNGKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APNGKit.xcconfig; sourceTree = "<group>"; };
-		A1C9A1F10C78A0FC8CEADC5031573E7B /* arm_init.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = arm_init.c; path = "APNGKit/libpng-apng/arm_init.c"; sourceTree = "<group>"; };
-		A5DE7F432EF5C981FCD488ED4D835D9E /* GCDTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCDTimer.swift; path = APNGKit/GCDTimer.swift; sourceTree = "<group>"; };
-		A6B8B6604AB9BBD2438F06AD5D6CF5DE /* APNGKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APNGKit-umbrella.h"; sourceTree = "<group>"; };
+		97315337AB6EFD684870E897C4020F7F /* filter_neon_intrinsics.c */ = {isa = PBXFileReference; includeInIndex = 1; name = filter_neon_intrinsics.c; path = "APNGKit/libpng-apng/filter_neon_intrinsics.c"; sourceTree = "<group>"; };
+		9880EEAF9376FE54822C306F6A6238E3 /* pngerror.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngerror.c; path = "APNGKit/libpng-apng/pngerror.c"; sourceTree = "<group>"; };
+		98C519FAAEAF7535067CA543F53AFEA7 /* APNGImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APNGImageView.swift; path = APNGKit/APNGImageView.swift; sourceTree = "<group>"; };
+		9C31FA33358140B5F40E6A9563D9D6C6 /* pngmem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngmem.c; path = "APNGKit/libpng-apng/pngmem.c"; sourceTree = "<group>"; };
+		A380F15B6AD9B923DEC42537619488D9 /* APNGImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APNGImage.swift; path = APNGKit/APNGImage.swift; sourceTree = "<group>"; };
+		A5A6071166979A7E409E12F8BB072D53 /* pnglibconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pnglibconf.h; path = "APNGKit/libpng-apng/pnglibconf.h"; sourceTree = "<group>"; };
+		A62C854915E3607257792AC94116B09F /* Pods_ProgressiveJPEGTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProgressiveJPEGTests.framework; path = "Pods-ProgressiveJPEGTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DA7B2BDB8BDA4BACD423B3A168A102 /* APNGKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = APNGKit.modulemap; sourceTree = "<group>"; };
 		A70BDEF17E5170EA553FB2DCB4E2D05D /* Pods-ProgressiveJPEG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressiveJPEG.release.xcconfig"; sourceTree = "<group>"; };
 		A7B3CEBF0E95FDD28CAE45159025C0AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A82CED95AB8B7F3D451755E037E8D204 /* pngrio.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngrio.c; path = "APNGKit/libpng-apng/pngrio.c"; sourceTree = "<group>"; };
-		AD1BE5B1C9031C34DCAD23CF60185E7D /* pngwutil.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngwutil.c; path = "APNGKit/libpng-apng/pngwutil.c"; sourceTree = "<group>"; };
+		ACE7F2D29804AE6972C9F2062767F211 /* Frame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Frame.swift; path = APNGKit/Frame.swift; sourceTree = "<group>"; };
 		ADDE98AD834C2D5BFE93DA970A015D3E /* Pods-ProgressiveJPEG-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProgressiveJPEG-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B9CEBD103628486EBB888E84DC73C208 /* Pods_ProgressiveJPEG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressiveJPEG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE927082C747E45BB5AEA686D9AC02C /* pngwutil.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngwutil.c; path = "APNGKit/libpng-apng/pngwutil.c"; sourceTree = "<group>"; };
+		B8C800F1A6CE75C89696F83B47581E05 /* Reader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reader.swift; path = APNGKit/Reader.swift; sourceTree = "<group>"; };
 		C064D4A88D6E061E605AF9F86F619B32 /* Pods-ProgressiveJPEG-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProgressiveJPEG-frameworks.sh"; sourceTree = "<group>"; };
-		C44FE21BAD9684DD2221902C24DA6289 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C83D8BFA0A3B227D6C78D0F5497947F9 /* pngmem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngmem.c; path = "APNGKit/libpng-apng/pngmem.c"; sourceTree = "<group>"; };
-		CBAAFFA3654C65D211429D0F7ACB59E3 /* pngtrans.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngtrans.c; path = "APNGKit/libpng-apng/pngtrans.c"; sourceTree = "<group>"; };
+		C16E69CD486683F4379B10D97076BE44 /* pngrio.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngrio.c; path = "APNGKit/libpng-apng/pngrio.c"; sourceTree = "<group>"; };
+		CB37C958421CDDE60AE6CE43924DDE6C /* APNGKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APNGKit-prefix.pch"; sourceTree = "<group>"; };
 		CBD427DF1C57099371DA691C80BA2778 /* Pods-ProgressiveJPEG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProgressiveJPEG-dummy.m"; sourceTree = "<group>"; };
-		CE434B3B552A5D2E45ACF608F79000F2 /* pngstruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngstruct.h; path = "APNGKit/libpng-apng/pngstruct.h"; sourceTree = "<group>"; };
 		CEC2FA351E52B2DD7BDA2124DCE4CE86 /* Pods-ProgressiveJPEG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressiveJPEG.debug.xcconfig"; sourceTree = "<group>"; };
-		D735B9C65E37292A00D0790BB0400BA4 /* pngpriv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngpriv.h; path = "APNGKit/libpng-apng/pngpriv.h"; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0DCF80033BECB168FDB19D1E2B81813 /* APNGKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APNGKit-umbrella.h"; sourceTree = "<group>"; };
+		D22F5EA31DC3E9870FF9B1723CBB6BED /* Disassembler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disassembler.swift; path = APNGKit/Disassembler.swift; sourceTree = "<group>"; };
+		D6643BCE237036A9533F9A2DF7898C3A /* GCDTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCDTimer.swift; path = APNGKit/GCDTimer.swift; sourceTree = "<group>"; };
+		D848DBDBF522124EECA50942735406AE /* APNGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APNGKit.framework; path = APNGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC538644C86BAB0A764719BA23DD688 /* png.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = png.h; path = "APNGKit/libpng-apng/png.h"; sourceTree = "<group>"; };
 		DD186B5CDB84BBE8BBC15EDEA90C2022 /* Pods-ProgressiveJPEGTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProgressiveJPEGTests-frameworks.sh"; sourceTree = "<group>"; };
-		E0837CC1D736F4CFD7CD6F50C0EE7609 /* APNGImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APNGImage.swift; path = APNGKit/APNGImage.swift; sourceTree = "<group>"; };
-		E2D7787BE201FF20A9DEE84DEBD49418 /* Pods-ProgressiveJPEGTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ProgressiveJPEGTests.modulemap"; sourceTree = "<group>"; };
-		E64D272A6BB300995A88B999B1DAB904 /* Reader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reader.swift; path = APNGKit/Reader.swift; sourceTree = "<group>"; };
+		DF6CC3406B73F11FB4971FB4E6B37BE8 /* pngread.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pngread.c; path = "APNGKit/libpng-apng/pngread.c"; sourceTree = "<group>"; };
+		E2CC27FA2992EB0D42E5F320B00BD4FF /* APNGKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APNGKit.xcconfig; sourceTree = "<group>"; };
+		E2D7787BE201FF20A9DEE84DEBD49418 /* Pods-ProgressiveJPEGTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ProgressiveJPEGTests.modulemap"; sourceTree = "<group>"; };
+		E761494C2CAD0FF55B139ECC810A68F0 /* pngconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngconf.h; path = "APNGKit/libpng-apng/pngconf.h"; sourceTree = "<group>"; };
 		EAFC84ED121F0C3E53A2C48AF2417CDB /* Pods-ProgressiveJPEG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProgressiveJPEG-umbrella.h"; sourceTree = "<group>"; };
-		EE39BC13A55A855B8221181351A191B7 /* pngwtran.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngwtran.c; path = "APNGKit/libpng-apng/pngwtran.c"; sourceTree = "<group>"; };
-		F151FC4832F13DF065002599EF51EF30 /* png.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = png.c; path = "APNGKit/libpng-apng/png.c"; sourceTree = "<group>"; };
-		F60A6B752C0F761684A9D514D66396A2 /* CCBufferedImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCBufferedImageDecoder.m; path = Code/CCBufferedImageDecoder.m; sourceTree = "<group>"; };
-		F645F48555BFF3BD58E9AD05FC1AC0C1 /* pngset.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngset.c; path = "APNGKit/libpng-apng/pngset.c"; sourceTree = "<group>"; };
+		F22D3818E683307C4B18FFB1EFB973E2 /* pngdebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pngdebug.h; path = "APNGKit/libpng-apng/pngdebug.h"; sourceTree = "<group>"; };
 		F6C8E7B228C621233FCD033F85A76345 /* Pods-ProgressiveJPEG-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProgressiveJPEG-resources.sh"; sourceTree = "<group>"; };
-		F9E3EF1D1EC96632F334FB5BB26A09AF /* pngwrite.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pngwrite.c; path = "APNGKit/libpng-apng/pngwrite.c"; sourceTree = "<group>"; };
-		FA78AD899CFE233EA0EA4CC578AE72E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAD63DEB9DB57915555BDBB7D9C64D9B /* Concorde.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Concorde.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF6F1A2417D5CF0502FD82A8EDC62BEB /* CCBufferedImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCBufferedImageDecoder.h; path = Code/CCBufferedImageDecoder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		60C8FF5F9CE4DB6DB5EC2D28F4E9335C /* Frameworks */ = {
+		218CEF0A0A77FDB750A58164E168F341 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EDD508B146415BB1A59977B271D0179 /* Foundation.framework in Frameworks */,
-				49A8DC68A0B231B9F3E85DCDCD06E3DC /* UIKit.framework in Frameworks */,
+				B66F13FDADB6E891B61FED5C4ED50DB0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,96 +153,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF75A02F36E1A9EB0AEAB81D98C7ECC5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35A75192E8EDB7E97E5DE55E02327E77 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17368716E42060A9F13F5FF7B0AC9966 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				43CCC35C5DB2F53E8151D8EC9A3750EF /* libturbojpeg.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1FEA1105519540E8CDEAFDC769E72F38 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3A6B7B04E07E08C5C8932B8EBE18AA04 /* APNGKit.framework */,
-				FAD63DEB9DB57915555BDBB7D9C64D9B /* Concorde.framework */,
-				B9CEBD103628486EBB888E84DC73C208 /* Pods_ProgressiveJPEG.framework */,
-				7D155A0A1575903BB9291738C51BC402 /* Pods_ProgressiveJPEGTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		29DB103883F3A785B9C2096480CC20D1 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				692479DEE85CA33617D356E8DD56B503 /* CCBufferedImageView.swift */,
-			);
-			name = UI;
-			sourceTree = "<group>";
-		};
-		2C6C967660ABADEF29F48B53DD72C83D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EAC765E5986E7B69FC3C52E6FE6E87C1 /* APNGKit */,
-				4A10DAE0E8069F3398EA23F83D15390F /* Concorde */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		431F95237EB38D87013F1DA0D3E282AE /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				FF6F1A2417D5CF0502FD82A8EDC62BEB /* CCBufferedImageDecoder.h */,
-				F60A6B752C0F761684A9D514D66396A2 /* CCBufferedImageDecoder.m */,
-				96D8D87D08F4D40D09AAC8271745599F /* Concorde.h */,
-				5BC08F95F88B79A4F9CB33140A19A11C /* jconfig.h */,
-				52CD9EC288CB03F246825AC3F6D0C1B2 /* jerror.h */,
-				66813B1A08DD4A5824859931E5394A76 /* jmorecfg.h */,
-				8FD3A08595F46F417E55F96004DEA27C /* jpeglib.h */,
-				5D5008C73EA1725D25D072405D2122D0 /* turbojpeg.h */,
-				17368716E42060A9F13F5FF7B0AC9966 /* Frameworks */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4A10DAE0E8069F3398EA23F83D15390F /* Concorde */ = {
-			isa = PBXGroup;
-			children = (
-				431F95237EB38D87013F1DA0D3E282AE /* Core */,
-				B0DA29345EE4D136778D12FA001B2261 /* Support Files */,
-				29DB103883F3A785B9C2096480CC20D1 /* UI */,
-			);
-			path = Concorde;
-			sourceTree = "<group>";
-		};
 		5DC034F77B9D28849EF3DA9F98364FF0 /* Pods-ProgressiveJPEGTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,25 +178,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				2C6C967660ABADEF29F48B53DD72C83D /* Pods */,
-				1FEA1105519540E8CDEAFDC769E72F38 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				955DA985B6372BE270FFB473E95DA94D /* Pods */,
+				B68AD872592133E00ABAABA126353F17 /* Products */,
 				D018AD8BBE195D66ED9F472DAD9FAA37 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		907FA70FDCDFB6D2E28F7982942154E8 /* Support Files */ = {
+		955DA985B6372BE270FFB473E95DA94D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				99C3B2A288DB06AB1B37CD2C25424AF0 /* APNGKit.modulemap */,
-				9E99DBB016B2433BE875BCEDEA07FF43 /* APNGKit.xcconfig */,
-				486351FDE63B319ED820688EA384DEE0 /* APNGKit-dummy.m */,
-				1CB932E623C7271E6C09DA947A487EBE /* APNGKit-prefix.pch */,
-				A6B8B6604AB9BBD2438F06AD5D6CF5DE /* APNGKit-umbrella.h */,
-				C44FE21BAD9684DD2221902C24DA6289 /* Info.plist */,
+				E76310D13C12524E808D9FA792DB07AA /* APNGKit */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/APNGKit";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		9F314313EE576A578896E6D89856179D /* Pods-ProgressiveJPEG */ = {
@@ -343,18 +211,36 @@
 			path = "Target Support Files/Pods-ProgressiveJPEG";
 			sourceTree = "<group>";
 		};
-		B0DA29345EE4D136778D12FA001B2261 /* Support Files */ = {
+		B68AD872592133E00ABAABA126353F17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68EB4C8670AB07F26FD3BC18B55658E4 /* Concorde.modulemap */,
-				29C47708F56E154D7B28BAC0D12B0ADE /* Concorde.xcconfig */,
-				1E8878BB79BA123E01BCFE2EC22C0366 /* Concorde-dummy.m */,
-				235C8888816B784904A4F77253C2397F /* Concorde-prefix.pch */,
-				26607ED5211F1770A06B02888AA939C8 /* Concorde-umbrella.h */,
-				FA78AD899CFE233EA0EA4CC578AE72E5 /* Info.plist */,
+				D848DBDBF522124EECA50942735406AE /* APNGKit.framework */,
+				17F15F04229FF40389C18F89D6B0663E /* Pods_ProgressiveJPEG.framework */,
+				A62C854915E3607257792AC94116B09F /* Pods_ProgressiveJPEGTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA776F4BA8A8985B64645CA592DD8E00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DA7B2BDB8BDA4BACD423B3A168A102 /* APNGKit.modulemap */,
+				E2CC27FA2992EB0D42E5F320B00BD4FF /* APNGKit.xcconfig */,
+				0AD3764F83B44E72E535C6FDD7194779 /* APNGKit-dummy.m */,
+				CB37C958421CDDE60AE6CE43924DDE6C /* APNGKit-prefix.pch */,
+				D0DCF80033BECB168FDB19D1E2B81813 /* APNGKit-umbrella.h */,
+				3433FD09E0C07E894D19247B570170BA /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Concorde";
+			path = "../Target Support Files/APNGKit";
 			sourceTree = "<group>";
 		};
 		D018AD8BBE195D66ED9F472DAD9FAA37 /* Targets Support Files */ = {
@@ -366,50 +252,67 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EAC765E5986E7B69FC3C52E6FE6E87C1 /* APNGKit */ = {
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E0837CC1D736F4CFD7CD6F50C0EE7609 /* APNGImage.swift */,
-				12BC780AEF484E4355260BB50471B4F0 /* APNGImageCache.swift */,
-				6D71CD6492B8DD54CACC3D6897AEEC69 /* APNGImageView.swift */,
-				235ECD4DD1E25CD2468D0E019BC6A888 /* APNGKit.h */,
-				A1C9A1F10C78A0FC8CEADC5031573E7B /* arm_init.c */,
-				157CB3FCD1C6B683158118323F8FD15F /* Disassembler.swift */,
-				237F596CD268E62E0A088401C92F492F /* filter_neon.S */,
-				3070404F6AB585632FC0DF6333957579 /* filter_neon_intrinsics.c */,
-				90BA8F3B6C3C9E7701D500FD2C3DE1EB /* Frame.swift */,
-				A5DE7F432EF5C981FCD488ED4D835D9E /* GCDTimer.swift */,
-				F151FC4832F13DF065002599EF51EF30 /* png.c */,
-				480A8D563EA5A2E5FAB8D68084715655 /* png.h */,
-				786128833E071820FD703AD0EF498658 /* pngconf.h */,
-				625918829EA951B00945AC7ADE893DD6 /* pngdebug.h */,
-				1DC06BFA8D740609A112895E10F5EAE5 /* pngerror.c */,
-				68832EFA2714A8EB7414088099EFE067 /* pngget.c */,
-				41109804DED17739233C86CF16D9BF81 /* pnginfo.h */,
-				0D7F2BABF3B805699544F7008400C47A /* pnglibconf.h */,
-				C83D8BFA0A3B227D6C78D0F5497947F9 /* pngmem.c */,
-				5DD94C7FBA5DAA96D8864B96FA309A4E /* pngpread.c */,
-				D735B9C65E37292A00D0790BB0400BA4 /* pngpriv.h */,
-				1AA35AFDA2A3E2F5A0B3E8B65FD4C54A /* pngread.c */,
-				A82CED95AB8B7F3D451755E037E8D204 /* pngrio.c */,
-				881436EDBBAB61E1A6E7FD7FC0AC5E67 /* pngrtran.c */,
-				65CEE3A3DF597772640ED3CECD86C688 /* pngrutil.c */,
-				F645F48555BFF3BD58E9AD05FC1AC0C1 /* pngset.c */,
-				CE434B3B552A5D2E45ACF608F79000F2 /* pngstruct.h */,
-				CBAAFFA3654C65D211429D0F7ACB59E3 /* pngtrans.c */,
-				5B546772A30D55166FE6DE552F570616 /* pngwio.c */,
-				F9E3EF1D1EC96632F334FB5BB26A09AF /* pngwrite.c */,
-				EE39BC13A55A855B8221181351A191B7 /* pngwtran.c */,
-				AD1BE5B1C9031C34DCAD23CF60185E7D /* pngwutil.c */,
-				E64D272A6BB300995A88B999B1DAB904 /* Reader.swift */,
-				907FA70FDCDFB6D2E28F7982942154E8 /* Support Files */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E76310D13C12524E808D9FA792DB07AA /* APNGKit */ = {
+			isa = PBXGroup;
+			children = (
+				A380F15B6AD9B923DEC42537619488D9 /* APNGImage.swift */,
+				7C9DE4BF0CF766CFBE4692E9C44B89BE /* APNGImageCache.swift */,
+				98C519FAAEAF7535067CA543F53AFEA7 /* APNGImageView.swift */,
+				1C8C363183975C09728EEED46F6081F3 /* APNGKit.h */,
+				92A8F634BC1B64DD0696C57D1083E3B6 /* arm_init.c */,
+				D22F5EA31DC3E9870FF9B1723CBB6BED /* Disassembler.swift */,
+				494D78CDD4E2E2A470A26909C1BDC39D /* filter_neon.S */,
+				97315337AB6EFD684870E897C4020F7F /* filter_neon_intrinsics.c */,
+				ACE7F2D29804AE6972C9F2062767F211 /* Frame.swift */,
+				D6643BCE237036A9533F9A2DF7898C3A /* GCDTimer.swift */,
+				04FD68EDBA9B229E87BDD18B93EB92C3 /* png.c */,
+				DAC538644C86BAB0A764719BA23DD688 /* png.h */,
+				E761494C2CAD0FF55B139ECC810A68F0 /* pngconf.h */,
+				F22D3818E683307C4B18FFB1EFB973E2 /* pngdebug.h */,
+				9880EEAF9376FE54822C306F6A6238E3 /* pngerror.c */,
+				425422187DCB264C371669D789415805 /* pngget.c */,
+				9027B8BB2B4F5CC298C38270AA42ABCC /* pnginfo.h */,
+				A5A6071166979A7E409E12F8BB072D53 /* pnglibconf.h */,
+				9C31FA33358140B5F40E6A9563D9D6C6 /* pngmem.c */,
+				707410490610A8A073C9118C2E2FD0F1 /* pngpread.c */,
+				09F8323A12A82F87B57579A698DFF7F1 /* pngpriv.h */,
+				DF6CC3406B73F11FB4971FB4E6B37BE8 /* pngread.c */,
+				C16E69CD486683F4379B10D97076BE44 /* pngrio.c */,
+				7AB963416B7CB44270542C704C057740 /* pngrtran.c */,
+				70235742EB379439BC476D8D49165279 /* pngrutil.c */,
+				74E2DEE2C8F3CE00D832B419A4AE8F70 /* pngset.c */,
+				00A5AAA88E8B2F8E9CEDF92B93E69950 /* pngstruct.h */,
+				4D245B6E4CBB92E7E8C9DC971A2551E1 /* pngtrans.c */,
+				22677718CBF595D174F3189217BA2E9B /* pngwio.c */,
+				602A952EDA1EFD71D0A7010A05B1AF48 /* pngwrite.c */,
+				2AED492703EE156D3E750456C691F75C /* pngwtran.c */,
+				ADE927082C747E45BB5AEA686D9AC02C /* pngwutil.c */,
+				B8C800F1A6CE75C89696F83B47581E05 /* Reader.swift */,
+				CA776F4BA8A8985B64645CA592DD8E00 /* Support Files */,
+			);
+			name = APNGKit;
 			path = APNGKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1CA30959135DD1CAAD1E16F3B7981414 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026D1AE2DBF522B5BFB08072FAFDAE53 /* Pods-ProgressiveJPEG-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F59A8DDA18F8930E8AFB06BF483F9EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,29 +329,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1D7DDAC90DE4ABA8F1754C452B4E020 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				979E4AC176DDBDEDB02AD12A6147F8FD /* Pods-ProgressiveJPEG-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D14013EC133582869A5DEADC090EDF6D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF6A092EABE28C98BBEB64D9958549CC /* CCBufferedImageDecoder.h in Headers */,
-				803BCEB77DD58F8093D25DB68D713F5B /* Concorde-umbrella.h in Headers */,
-				AED1CC52BA30AB6A202D926A8A9E9CD5 /* Concorde.h in Headers */,
-				D3043CFA9C18C1423938C5FD43EDAF9C /* jconfig.h in Headers */,
-				AA9281E615B1364CEB2121FDAD0C2BB2 /* jerror.h in Headers */,
-				0732E7EAAE25395800CBC160ABB69F6D /* jmorecfg.h in Headers */,
-				EB7000523D149BA8E5BF6F070F948CA9 /* jpeglib.h in Headers */,
-				3E297D06835AEE633CE4479B9220BD57 /* turbojpeg.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E6B90AB2B2A263BA45D0D7980C8C9694 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -460,23 +340,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1E56E71079FC67C44D358B8CE98B9480 /* Pods-ProgressiveJPEG */ = {
+		43A204509B40DCEBDDF8CA5627702345 /* Pods-ProgressiveJPEG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A0801CDF221774ACF92355569052FEE /* Build configuration list for PBXNativeTarget "Pods-ProgressiveJPEG" */;
+			buildConfigurationList = E0CF88951B78A96A405A17E6C67B50A2 /* Build configuration list for PBXNativeTarget "Pods-ProgressiveJPEG" */;
 			buildPhases = (
-				FD1EA2AD603151B41A888A7734C4F27A /* Sources */,
-				CF75A02F36E1A9EB0AEAB81D98C7ECC5 /* Frameworks */,
-				A1D7DDAC90DE4ABA8F1754C452B4E020 /* Headers */,
+				29B4328F65CB0D4E936865D03EC089CD /* Sources */,
+				218CEF0A0A77FDB750A58164E168F341 /* Frameworks */,
+				1CA30959135DD1CAAD1E16F3B7981414 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BB386984DBF88B9F3642C4694A43D993 /* PBXTargetDependency */,
-				4E37F606F12689568816499608224C34 /* PBXTargetDependency */,
+				4B2E58C8D26CE0611C0848F9DB29EBAD /* PBXTargetDependency */,
 			);
 			name = "Pods-ProgressiveJPEG";
 			productName = "Pods-ProgressiveJPEG";
-			productReference = B9CEBD103628486EBB888E84DC73C208 /* Pods_ProgressiveJPEG.framework */;
+			productReference = 17F15F04229FF40389C18F89D6B0663E /* Pods_ProgressiveJPEG.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C85F3B2C91E31DB6CD1AA7B4147D0B01 /* Pods-ProgressiveJPEGTests */ = {
@@ -493,24 +372,7 @@
 			);
 			name = "Pods-ProgressiveJPEGTests";
 			productName = "Pods-ProgressiveJPEGTests";
-			productReference = 7D155A0A1575903BB9291738C51BC402 /* Pods_ProgressiveJPEGTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F36D218A1A2FDE64CBDC28EB8F5C6473 /* Concorde */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E6646258D8928B90DEA493A200B4BAA /* Build configuration list for PBXNativeTarget "Concorde" */;
-			buildPhases = (
-				D48F13235078E803B37B4C52A15A22E5 /* Sources */,
-				60C8FF5F9CE4DB6DB5EC2D28F4E9335C /* Frameworks */,
-				D14013EC133582869A5DEADC090EDF6D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Concorde;
-			productName = Concorde;
-			productReference = FAD63DEB9DB57915555BDBB7D9C64D9B /* Concorde.framework */;
+			productReference = A62C854915E3607257792AC94116B09F /* Pods_ProgressiveJPEGTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FA52F8F69F6CB643B8196C552383B9E1 /* APNGKit */ = {
@@ -527,7 +389,7 @@
 			);
 			name = APNGKit;
 			productName = APNGKit;
-			productReference = 3A6B7B04E07E08C5C8932B8EBE18AA04 /* APNGKit.framework */;
+			productReference = D848DBDBF522124EECA50942735406AE /* APNGKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -547,19 +409,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1FEA1105519540E8CDEAFDC769E72F38 /* Products */;
+			productRefGroup = B68AD872592133E00ABAABA126353F17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FA52F8F69F6CB643B8196C552383B9E1 /* APNGKit */,
-				F36D218A1A2FDE64CBDC28EB8F5C6473 /* Concorde */,
-				1E56E71079FC67C44D358B8CE98B9480 /* Pods-ProgressiveJPEG */,
+				43A204509B40DCEBDDF8CA5627702345 /* Pods-ProgressiveJPEG */,
 				C85F3B2C91E31DB6CD1AA7B4147D0B01 /* Pods-ProgressiveJPEGTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		29B4328F65CB0D4E936865D03EC089CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7803A577193902C1FF7C76649D60366C /* Pods-ProgressiveJPEG-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		995FED8B5B29273BF2B4559EFB7F969E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -593,16 +462,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D48F13235078E803B37B4C52A15A22E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C72DE893C74D99CC2D0CAE9D30AB1C9C /* CCBufferedImageDecoder.m in Sources */,
-				233234972836F6B754DD0B585C0837EE /* CCBufferedImageView.swift in Sources */,
-				BE299D48B6C0E4D91ED6B61F5120AEDF /* Concorde-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F1AA4BB45B219BDB747C4B50813310F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -611,32 +470,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD1EA2AD603151B41A888A7734C4F27A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				247959B93E637531E326050E755CCFF9 /* Pods-ProgressiveJPEG-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E37F606F12689568816499608224C34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Concorde;
-			target = F36D218A1A2FDE64CBDC28EB8F5C6473 /* Concorde */;
-			targetProxy = ABD6310129DB727F686905DB975F3D29 /* PBXContainerItemProxy */;
-		};
-		BB386984DBF88B9F3642C4694A43D993 /* PBXTargetDependency */ = {
+		4B2E58C8D26CE0611C0848F9DB29EBAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = APNGKit;
 			target = FA52F8F69F6CB643B8196C552383B9E1 /* APNGKit */;
-			targetProxy = BB13E867952D4A0EC03561AEF310ADAE /* PBXContainerItemProxy */;
+			targetProxy = 25329634B7AB036852325442929C0F7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0107764898CD7C35F678F0098F493C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70BDEF17E5170EA553FB2DCB4E2D05D /* Pods-ProgressiveJPEG.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ProgressiveJPEG/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProgressiveJPEG/Pods-ProgressiveJPEG.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProgressiveJPEG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -686,6 +569,45 @@
 			};
 			name = Debug;
 		};
+		28BC8424C46131674FA01CC7BB75C5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC2FA351E52B2DD7BDA2124DCE4CE86 /* Pods-ProgressiveJPEG.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ProgressiveJPEG/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ProgressiveJPEG/Pods-ProgressiveJPEG.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ProgressiveJPEG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -730,47 +652,9 @@
 			};
 			name = Release;
 		};
-		356F9697E506FDFD6E45A4397F09EE62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A70BDEF17E5170EA553FB2DCB4E2D05D /* Pods-ProgressiveJPEG.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ProgressiveJPEG/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ProgressiveJPEG/Pods-ProgressiveJPEG.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ProgressiveJPEG;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		43DBF3D7926E17EDA558C91C465D9288 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E99DBB016B2433BE875BCEDEA07FF43 /* APNGKit.xcconfig */;
+			baseConfigurationReference = E2CC27FA2992EB0D42E5F320B00BD4FF /* APNGKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -782,7 +666,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/APNGKit/APNGKit-prefix.pch";
@@ -878,7 +761,7 @@
 		};
 		C64202AF5487B8EDF0CC5BDDCADA6A04 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E99DBB016B2433BE875BCEDEA07FF43 /* APNGKit.xcconfig */;
+			baseConfigurationReference = E2CC27FA2992EB0D42E5F320B00BD4FF /* APNGKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -890,7 +773,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/APNGKit/APNGKit-prefix.pch";
@@ -912,117 +794,6 @@
 			};
 			name = Release;
 		};
-		E1A5DD8EC41ADF6CFCE9C41255CD6912 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEC2FA351E52B2DD7BDA2124DCE4CE86 /* Pods-ProgressiveJPEG.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ProgressiveJPEG/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ProgressiveJPEG/Pods-ProgressiveJPEG.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ProgressiveJPEG;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F6046BB156C9E04046E5C5D33B133CD3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29C47708F56E154D7B28BAC0D12B0ADE /* Concorde.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Concorde/Concorde-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Concorde/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Concorde/Concorde.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Concorde;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FC460ED44FAC87D54322CBF5B2058AFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29C47708F56E154D7B28BAC0D12B0ADE /* Concorde.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Concorde/Concorde-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Concorde/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Concorde/Concorde.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Concorde;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1031,15 +802,6 @@
 			buildConfigurations = (
 				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
 				34FE9531DA9AF2820790339988D5FF41 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E6646258D8928B90DEA493A200B4BAA /* Build configuration list for PBXNativeTarget "Concorde" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC460ED44FAC87D54322CBF5B2058AFA /* Debug */,
-				F6046BB156C9E04046E5C5D33B133CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1053,20 +815,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A0801CDF221774ACF92355569052FEE /* Build configuration list for PBXNativeTarget "Pods-ProgressiveJPEG" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1A5DD8EC41ADF6CFCE9C41255CD6912 /* Debug */,
-				356F9697E506FDFD6E45A4397F09EE62 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		95478CBA15F49C12583FCB24F3DA3977 /* Build configuration list for PBXNativeTarget "Pods-ProgressiveJPEGTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80BC66D227FC33FFD71A57709B88B927 /* Debug */,
 				A629B84DAB2AD24776A7394FE61DA204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CF88951B78A96A405A17E6C67B50A2 /* Build configuration list for PBXNativeTarget "Pods-ProgressiveJPEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BC8424C46131674FA01CC7BB75C5C2 /* Debug */,
+				0107764898CD7C35F678F0098F493C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,7 +6,6 @@ target 'ProgressiveJPEG' do
   use_frameworks!
 
   # Pods for ProgressiveJPEG
-  pod 'Concorde'
   pod 'APNGKit', '~> 0.6'
   target 'ProgressiveJPEGTests' do
     inherit! :search_paths

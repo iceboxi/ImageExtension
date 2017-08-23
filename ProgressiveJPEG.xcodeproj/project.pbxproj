@@ -256,12 +256,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ProgressiveJPEG/Pods-ProgressiveJPEG-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/APNGKit/APNGKit.framework",
-				"${BUILT_PRODUCTS_DIR}/Concorde/Concorde.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APNGKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Concorde.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Concorde.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-ProgressiveJPEG.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,17 +22,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1E56E71079FC67C44D358B8CE98B9480</key>
+		<key>43A204509B40DCEBDDF8CA5627702345</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C85F3B2C91E31DB6CD1AA7B4147D0B01</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F36D218A1A2FDE64CBDC28EB8F5C6473</key>
 		<dict>
 			<key>primary</key>
 			<true/>

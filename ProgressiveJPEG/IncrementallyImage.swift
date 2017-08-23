@@ -9,8 +9,8 @@
 import UIKit
 import ImageIO
 
-class IncrementallyImage: NSObject, NSURLConnectionDataDelegate {
-    private weak var connection: NSURLConnection?
+class IncrementallyImage: NSObject, URLSessionDelegate, URLSessionDataDelegate {
+    private var session: URLSession?
     private var contentLength = 0
     private var data: Data?
     private let queue = DispatchQueue(label: "com.iceboxi.incrementallyimage")
@@ -20,7 +20,7 @@ class IncrementallyImage: NSObject, NSURLConnectionDataDelegate {
     public var loadedHandler: (() -> ())?
     
     deinit {
-        connection?.cancel()
+        session?.invalidateAndCancel()
     }
     
     public init(url: URL) {
@@ -29,20 +29,25 @@ class IncrementallyImage: NSObject, NSURLConnectionDataDelegate {
     }
     
     public func load(url: URL) {
-        connection?.cancel()
-        connection = NSURLConnection(request: URLRequest(url: url), delegate: self)
+        session?.invalidateAndCancel()
+        
+        let config = URLSessionConfiguration.default
+        session = URLSession(configuration: config, delegate: self, delegateQueue: nil)
+        session?.dataTask(with: url).resume()
     }
     
-    func connection(_ connection: NSURLConnection, didReceive data: Data) {
+    // MARK: - URLSessionDataDelegate
+    func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceive data: Data) {
         self.data?.append(data as Data)
         
         queue.sync() {
+            let scale = UIScreen.main.scale
             let d = [
                 kCGImageSourceShouldCache as String : true as NSNumber,
                 kCGImageSourceShouldAllowFloat as String : true as NSNumber,
                 kCGImageSourceCreateThumbnailWithTransform as String : true as NSNumber,
                 kCGImageSourceCreateThumbnailFromImageIfAbsent as String : true as NSNumber,
-                kCGImageSourceThumbnailMaxPixelSize as String : 100 as NSNumber
+                kCGImageSourceThumbnailMaxPixelSize as String : 50*scale as NSNumber
                 ] as CFDictionary
             
             let source = CGImageSourceCreateIncremental(nil)
@@ -65,20 +70,23 @@ class IncrementallyImage: NSObject, NSURLConnectionDataDelegate {
         }
     }
     
-    func connection(_ connection: NSURLConnection, didReceive response: URLResponse) {
+    func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceive response: URLResponse, completionHandler: @escaping (URLSession.ResponseDisposition) -> Void) {
         contentLength = Int(response.expectedContentLength)
         if contentLength < 0 {
             contentLength = 5 * 1024 * 1024
         }
         
         data = Data(capacity: contentLength)
+        
+        completionHandler(URLSession.ResponseDisposition.allow)
     }
     
-    func connectionDidFinishLoading(_ connection: NSURLConnection) {
+    // MARK: - URLSessionDelegate
+    func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession) {
         data = nil
-        
         if let loadedHandler = loadedHandler {
             loadedHandler()
         }
     }
 }
+
