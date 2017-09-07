@@ -25,6 +25,15 @@ fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 
 extension UIImage {
     
+    public class func decodeGifImageWithData(_ data: Data) -> NSDictionary? {
+        guard let source = CGImageSourceCreateWithData(data as CFData, nil) else {
+            print("image doesn't exist")
+            return nil
+        }
+        
+        return UIImage.imagesWithSource(source)
+    }
+    
     public class func gifImageWithData(_ data: Data) -> UIImage? {
         guard let source = CGImageSourceCreateWithData(data as CFData, nil) else {
             print("image doesn't exist")
@@ -178,5 +187,47 @@ extension UIImage {
                                               duration: Double(duration) / 1000.0)
         
         return animation
+    }
+    
+    class func imagesWithSource(_ source: CGImageSource) -> NSDictionary? {
+        let count = CGImageSourceGetCount(source)
+        var images = [CGImage]()
+        var delays = [Int]()
+        
+        for i in 0..<count {
+            if let image = CGImageSourceCreateImageAtIndex(source, i, nil) {
+                images.append(image)
+            }
+            
+            let delaySeconds = UIImage.delayForImageAtIndex(Int(i),
+                                                            source: source)
+            delays.append(Int(delaySeconds * 1000.0)) // Seconds to ms
+        }
+        
+        let duration: Double = {
+            var sum = 0.0
+            
+            for val: Int in delays {
+                sum += Double(val)/1000.0
+            }
+            
+            return sum
+        }()
+        
+        let gcd = gcdForArray(delays)
+        var frames = [UIImage]()
+        
+        var frame: UIImage
+        var frameCount: Int
+        for i in 0..<count {
+            frame = UIImage(cgImage: images[Int(i)])
+            frameCount = Int(delays[Int(i)] / gcd)
+
+            for _ in 0..<frameCount {
+                frames.append(frame)
+            }
+        }
+        
+        return ["images": frames, "duration": duration]
     }
 }
